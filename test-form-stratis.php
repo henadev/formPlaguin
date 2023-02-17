@@ -6,12 +6,12 @@
  * Version: 1.0.0
  * Author: Hana ben Alaya
  *
- * @package TestStratis\Plugins\formPlugin
+ * @package testStratis\Plugins\formPlugin
  */
 
-class_exists( 'teststratis\wp-content\plugins\formPlugin\test-form-stratis' ) || require_once __DIR__ . '/vendor/autoload.php';
+class_exists( 'teststratis\plugins\formPlugin\src' ) || require_once __DIR__ . '/vendor/autoload.php';
 
-// teststratis\wp-content\plugins\formPlugin\test-form-stratis\StratisFormPlugin::init();
+\teststratis\plugins\formPlugin\src\StratisFormPlugin::init();
 
 
 

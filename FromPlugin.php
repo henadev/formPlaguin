@@ -10,7 +10,7 @@ namespace teststratis\Plugins\formPlugin;
 class FromPlugin {
 
 	public function __construct() {
-		__construct( __DIR__ . DIRECTORY_SEPARATOR . '..' );
+		( __DIR__ . DIRECTORY_SEPARATOR . '..' );
 
 		\add_action(
 			'init',

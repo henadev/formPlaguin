@@ -1,15 +1,15 @@
 <?php
 
-namespace teststratis\wpcontent\Plugins\formPlugin;
+namespace teststratis\plugins\formPlugin;
 
 use teststratis\Plugins\formPlugin\CustomFields\FieldGroup\FormFieldGroup;
-use teststratis\plugins\formPlugin\CityContractPlugin\PostType\FormPostType;
+use teststratis\plugins\formPlugin\PostType\FormPostType;
 
 /**
  * Class StratisFormPlugin
  *
  * @package src
- */
+ */ 
 class StratisFormPlugin {
 
 	protected function __construct() {

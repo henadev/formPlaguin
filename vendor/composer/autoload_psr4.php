@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'HanaAsus\\FormPlugin\\' => array($baseDir . '/src'),
+    'HanaAsus\\formPlugin\\' => array($baseDir . '/src'),
 );
